@@ -1,0 +1,21 @@
+body {
+    color: #997070;
+    font-family: Arial;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+footer {
+    background: lightgrey;
+    border-top: 1px solid #eeeeee;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+header {
+    background: lightgrey;
+    border-bottom: 1px solid #eeeeee;
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+}
