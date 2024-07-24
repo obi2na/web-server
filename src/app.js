@@ -10,9 +10,11 @@ const port = process.env.PORT || 3000;
 //setup directories
 const publicDirectPath = path.join(__dirname, '../public');
 const partialsPath = path.join(__dirname, './partials');
+const viewsPath = path.join(__dirname, './views');
 
 //setup handlebars engine
 app.set('view engine', 'hbs');
+app.set('views', viewsPath);
 
 //set views path for partials used by express
 hbs.registerPartials(partialsPath);
